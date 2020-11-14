@@ -7,6 +7,8 @@
     "build": "vue-cli-service build --target lib --name child-component-lib src/lib.ts",
     "lint": "vue-cli-service lint"
   },
+  "main": "dist/child-component-lib.umd.js",
+  "types": "tholst__child-component-lib.d.ts",
   "dependencies": {
     "@vue/composition-api": "^1.0.0-beta.19",
     "core-js": "^3.6.5",

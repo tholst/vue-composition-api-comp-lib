@@ -1,0 +1,8 @@
+node_modules
+tests
+testDir
+src
+public
+pacts
+.idea
+.env

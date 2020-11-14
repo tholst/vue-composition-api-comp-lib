@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@vue/composition-api": "^1.0.0-beta.19",
+    "@tholst/child-component-lib": "latest",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
