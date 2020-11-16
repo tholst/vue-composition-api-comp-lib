@@ -14,11 +14,11 @@ const routes: Array<RouteConfig> = [
   //   component: () =>
   //     import(/* webpackChunkName: "about" */ "../views/About.vue")
   // }
-  ...childComponentRoutes
+  ...childComponentRoutes,
 ];
 
 const router = new VueRouter({
-  routes
+  routes,
 });
 
 export default router;
