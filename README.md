@@ -5,7 +5,8 @@ Testing import of @vue/composition-api style components from a component library
 
 ### 1. Clone, install, run
 ```bash
-git clone git@github.com:tholst/vue-composition-api-comp-lib.git && cd vue-composition-api-comp-lib/child-component-lib && npm install && npm run build && cd ../parent-app/ && npm install && npm run serve
+git clone git@github.com:tholst/vue-composition-api-comp-lib.git && cd vue-composition-api-comp-lib/child-component-lib && npm install && npm run build && 
+rm -rf ./node_modules && cd ../parent-app/ && npm install && npm run serve
 ```
 
 or one by one 
@@ -14,6 +15,7 @@ git clone git@github.com:tholst/vue-composition-api-comp-lib.git
 cd vue-composition-api-comp-lib/child-component-lib
 npm install
 npm run build
+rm -rf ./node_modules
 cd ../parent-app/
 npm install
 npm run serve
